@@ -71,6 +71,10 @@ $link-focus-border: $primary;
 
 .card {
   height: 80vh;
-  // overflow: scroll;
+}
+
+#maria {
+  float: left;
+  margin-right: 1.5em;
 }
 </style>
