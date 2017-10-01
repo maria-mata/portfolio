@@ -76,5 +76,9 @@ $link-focus-border: $primary;
 #maria {
   float: left;
   margin-right: 1.5em;
+  width: 40%;
+  img {
+    border-radius: .2em;
+  }
 }
 </style>

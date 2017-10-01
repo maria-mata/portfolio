@@ -1,16 +1,17 @@
 const learning = [
-  'SASS',
+  'SASS / SCSS',
   'Sketch',
   'Python'
 ]
 
 const skills = [
+  'JavaScript',
+  'Vue',
+  'jQuery',
   'HTML',
   'CSS',
-  'JavaScript',
-  'jQuery',
-  'ES6',
-  'Vue',
+  'CSS Frameworks',
+  'CLI',
   'Node',
   'Express',
   'Knex',

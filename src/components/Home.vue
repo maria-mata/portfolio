@@ -12,10 +12,10 @@
             <span></span>
           </span>
           <div class="nav-right nav-menu" :class="{ 'is-active': mobile }">
-            <a href="#home" class="nav-item" @click="toggleBurger">Home</a>
-            <a href="#about" class="nav-item" @click="toggleBurger">About</a>
-            <a href="#projects" class="nav-item" @click="toggleBurger">Projects</a>
-            <a href="#contact" class="nav-item" @click="toggleBurger">Contact</a>
+            <a class="nav-item" @click.prevent="jump('#home')" @click="toggleBurger">Home</a>
+            <a class="nav-item" @click.prevent="jump('#about')" @click="toggleBurger">About</a>
+            <a class="nav-item" @click.prevent="jump('#projects')" @click="toggleBurger">Projects</a>
+            <a class="nav-item" @click.prevent="jump('#contact')" @click="toggleBurger">Contact</a>
           </div>
         </div>
       </header>
@@ -31,11 +31,14 @@
 </template>
 
 <script>
+import jump from 'jump.js'
+
 export default {
   name: 'home',
   data() {
     return {
-      mobile: false
+      mobile: false,
+      jump: jump
     }
   },
   methods: {

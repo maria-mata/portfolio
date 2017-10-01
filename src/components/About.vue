@@ -5,7 +5,9 @@
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <div class="tile is-child notification is-light">
-            <img id="maria" src="../assets/headshot.jpg" alt="maria-headshot" width="250">
+            <figure id="maria" class="image">
+              <img src="../assets/headshot.jpg" alt="maria-headshot">
+            </figure>
             <p class="title">Hello.</p>
             <p>I love to learn, solve problems, and work alongside smart people, which led me to develop a passion for coding and creating software for the web. When the stars finally aligned, I decided to pursue my dream of working in tech by enrolling in the Galvanize Web Development Immersive and I absolutely love it!</p>
             <br>
