@@ -23,8 +23,8 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title">Maria Jose Mata</h1>
-        <h2 class="subtitle">JavaScript Developer</h2>
+        <h1 class="title is-1">MARIA JOSE <span class="text-is-light">MATA</span></h1>
+        <h2 class="subtitle is-4">JavaScript Developer</h2>
       </div>
     </div>
   </section>

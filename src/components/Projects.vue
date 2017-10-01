@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="section">
     <div class="container">
-      <h2 class="title">Projects</h2>
+      <h2 class="title is-2">Projects</h2>
       <div class="columns is-multiline">
         <div class="column is-one-third-desktop" v-for="project in projects">
           <div class="card">

@@ -1,30 +1,33 @@
 <template lang="html">
   <section id="about" class="section">
     <div class="container">
-      <h2 class="title">About</h2>
+      <h2 class="title is-2">About</h2>
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <div class="tile is-child notification is-light">
-            <figure id="maria" class="image">
-              <img src="../assets/headshot.jpg" alt="maria-headshot">
-            </figure>
-            <p class="title">Hello.</p>
-            <p>I love to learn, solve problems, and work alongside smart people, which led me to develop a passion for coding and creating software for the web. When the stars finally aligned, I decided to pursue my dream of working in tech by enrolling in the Galvanize Web Development Immersive and I absolutely love it!</p>
-            <br>
-            <p>Prior to becoming a Web Developer, I worked as a conference and events manager at the University of Denver for 9 years. During that time, I managed over 900 events of up to 1,000 attendees. It was a wonderful experience that taught me how to work with people of diverse backgrounds and lead teams under pressure.</p>
-            <br>
-            <a class="button is-primary">Resume</a>
+            <div class="content is-medium bio">
+              <img id="maria" src="../assets/headshot.jpg" alt="maria-headshot"
+              class="is-pulled-left "width="260">
+              <p class="title">Hello.</p>
+              <p>I'm María José Mata, a JavaScript Developer based in Denver, CO. In a previous life, I was a successful conference and events manager at a university, where I kept track of countless moving pieces and managed an average of 100 events yearly.</p>
+              <p>I enjoy creative challenges and work that requires constant learning, which ultimately inspired me to change careers and learn to code through the Galvanize Web Development Immersive.</p>
+              <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
+            </div>
+            <a class="button is-primary is-outlined">Résumé</a>
+            <a class="button is-primary is-outlined" @click.prevent="jump('#contact')">Contact</a>
+            <div class="is-pulled-left">
+            </div>
           </div>
         </div>
         <div class="tile is-4 is-vertical is-parent">
           <div class="tile is-child notification is-primary">
-            <p class="title">Skills</p>
+            <p class="title is-4">Skills</p>
             <div class="tags">
               <span v-for="skill in list.skills" class="tag is-light">{{ skill }}</span>
             </div>
           </div>
           <div class="tile is-child notification is-dark">
-            <p class="title">Learning</p>
+            <p class="title is-4">Learning</p>
             <div class="tags">
               <span v-for="learn in list.learning" class="tag is-light">{{ learn }}</span>
             </div>
@@ -37,12 +40,14 @@
 
 <script>
 import list from '../data/skills'
+import jump from 'jump.js'
 
 export default {
   name: 'about',
   data() {
     return {
-      list: list
+      list: list,
+      jump: jump
     }
   }
 }

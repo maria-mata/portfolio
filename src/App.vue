@@ -26,18 +26,14 @@ export default {
 </script>
 
 <style lang="scss">
-// Import Bulma's core
 @import "~bulma/sass/utilities/_all";
-// Set your colors
+
+// Colors
 $primary: #9966FF;
 // $primary: #8c67ef;
-// $primary: #6666CC;
 // $primary: #66CC99;
 $primary-invert: findColorInvert($primary);
-$twitter: #4099FF;
-$twitter-invert: findColorInvert($twitter);
 
-// Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
     "white": ($white, $black),
     "black": ($black, $white),
@@ -48,8 +44,12 @@ $colors: (
     "success": ($success, $success-invert),
     "warning": ($warning, $warning-invert),
     "danger": ($danger, $danger-invert),
-    "twitter": ($twitter, $twitter-invert)
 );
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400');
+$family-serif: 'Fira Sans', sans-serif;
+$family-primary: $family-serif;
 
 // Links
 $link: $primary;
@@ -70,15 +70,17 @@ $link-focus-border: $primary;
 }
 
 .card {
-  height: 80vh;
+  height: 82vh;
+  overflow: scroll;
+}
+
+.content.is-medium {
+  font-weight: 300;
+  text-align: justify;
 }
 
 #maria {
-  float: left;
-  margin-right: 1.5em;
-  width: 40%;
-  img {
-    border-radius: .2em;
-  }
+  margin-right: 1em;
+  border-radius: .2em;
 }
 </style>
