@@ -8,7 +8,7 @@
             <div class="content is-medium bio">
               <img id="maria" src="../assets/headshot.jpg" alt="maria-headshot"
               class="is-pulled-left "width="260">
-              <p class="title">Hello.</p>
+              <h3 class="title">Hello.</h3>
               <p>I'm María José Mata, a JavaScript Developer based in Denver, CO. In a previous life, I was a successful conference and events manager at a university, where I kept track of countless moving pieces and managed an average of 100 events yearly.</p>
               <p>I enjoy creative challenges and work that requires constant learning, which ultimately inspired me to change careers and learn to code through the Galvanize Web Development Immersive.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
@@ -21,13 +21,13 @@
         </div>
         <div class="tile is-4 is-vertical is-parent">
           <div class="tile is-child notification is-primary">
-            <p class="title is-4">Skills</p>
+            <h4 class="title is-4">Skills</h4>
             <div class="tags">
               <span v-for="skill in list.skills" class="tag is-light">{{ skill }}</span>
             </div>
           </div>
           <div class="tile is-child notification is-dark">
-            <p class="title is-4">Learning</p>
+            <h4 class="title is-4">Learning</h4>
             <div class="tags">
               <span v-for="learn in list.learning" class="tag is-light">{{ learn }}</span>
             </div>
