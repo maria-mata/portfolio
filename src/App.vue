@@ -67,4 +67,9 @@ $link-focus-border: $primary;
   z-index: 1;
   background: $primary !important;
 }
+
+.card {
+  height: 85vh;
+  overflow: scroll;
+}
 </style>
