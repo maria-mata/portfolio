@@ -4,7 +4,7 @@
       <header class="nav">
         <div class="container">
           <div class="nav-left">
-            <a class="nav-item"><img src="../assets/maria-logo-white.png" alt="maria-logo-white"></a>
+            <a class="nav-item" href="/"><img src="../assets/maria-logo-white.png" alt="maria-logo-white"></a>
           </div>
           <span class="nav-toggle" :class="{ 'is-active': mobile }" @click="toggleBurger">
             <span></span>

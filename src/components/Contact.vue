@@ -16,7 +16,11 @@
         </a>
         <br>
         <br>
-        <p>Made with <i class="fa fa-heart"></i> by Maria Jose Mata | 2017</p>
+        <p><i class="fa fa-copyright"></i> 2017 María José Mata //
+          <a href="https://github.com/maria-mata/portfolio" target="_blank">
+            <i class="fa fa-github"></i> Site Source
+          </a>
+        </p>
       </div>
     </div>
   </footer>
