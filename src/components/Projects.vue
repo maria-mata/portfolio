@@ -2,7 +2,7 @@
   <section id="projects" class="section">
     <div class="container">
       <h2 class="title">Projects</h2>
-      <div class="columns is-mobile is-multiline">
+      <div class="columns is-multiline">
         <div class="column is-one-third-desktop" v-for="project in projects">
           <div class="card">
             <div class="card-image">
@@ -45,45 +45,13 @@
 </template>
 
 <script>
-import cityBLOCK from '../assets/city-block.png'
-import dreamCatcher from '../assets/dream-catcher.png'
-import fridgeToTable from '../assets/fridge-to-table.png'
+import projectsList from '../data/projects-list'
 
 export default {
   name: 'projects',
   data() {
     return {
-      projects: [
-        {
-          name: 'cityBLOCK',
-          description: 'Community funded urban development, powered by blockchain.',
-          tech: ['Vue', 'Bulma', 'Ethereum', 'Solidity', 'Truffle', 'Web3',
-          'Node', 'Express', 'Knex', 'PostgreSQL', 'Heroku'],
-          github: 'https://github.com/block-squad/city-block-client',
-          live: 'http://city-block.herokuapp.com/#/',
-          image: cityBLOCK,
-          alt: 'city-block'
-        },
-        {
-          name: 'Dream Catcher',
-          description: 'A journal for your dreams.',
-          tech: ['jQuery', 'Handlebars', 'Bootstrap', 'Node',
-          'Express', 'Knex', 'PostgreSQL', 'Heroku'],
-          github: 'https://github.com/maria-mata/dream-catcher',
-          live: 'http://city-block.herokuapp.com/#/',
-          image: dreamCatcher,
-          alt: 'dream-catcher'
-        },
-        {
-          name: 'Fridge to Table',
-          description: 'Search, browse, and save recipes based on ingredients you have on hand.',
-          tech: ['jQuery', 'Materialize','Firebase', 'Edamam API'],
-          github: 'https://github.com/maria-mata/dream-catcher',
-          live: 'http://city-block.herokuapp.com/#/',
-          image: fridgeToTable,
-          alt: 'fridge-to-table'
-        }
-      ]
+      projects: projectsList
     }
   }
 }

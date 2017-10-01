@@ -32,6 +32,7 @@ export default {
 $primary: #9966FF;
 // $primary: #8c67ef;
 // $primary: #6666CC;
+// $primary: #66CC99;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
@@ -69,7 +70,7 @@ $link-focus-border: $primary;
 }
 
 .card {
-  height: 85vh;
-  overflow: scroll;
+  height: 80vh;
+  // overflow: scroll;
 }
 </style>
