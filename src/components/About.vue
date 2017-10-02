@@ -5,9 +5,9 @@
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <div class="tile is-child notification is-light">
+            <img id="maria" src="../assets/headshot.jpg" alt="maria-headshot"
+            class="is-pulled-left "width="260">
             <div class="content is-medium has-text-weight-light has-text-justified">
-              <img id="maria" src="../assets/headshot.jpg" alt="maria-headshot"
-              class="is-pulled-left "width="260">
               <h3 class="title">Hello.</h3>
               <p>I'm María José Mata, a JavaScript Developer based in Denver, CO. In a previous life, I was a successful conference and events manager at a university, where I kept track of countless moving pieces and managed an average of 100 events yearly.</p>
               <p>I enjoy creative challenges and work that requires constant learning, which ultimately inspired me to change careers and learn to code through the Galvanize Web Development Immersive.</p>
