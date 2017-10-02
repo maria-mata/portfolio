@@ -13,7 +13,6 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
-
 export default {
   name: 'app',
   components: {
@@ -30,8 +29,6 @@ export default {
 
 // Colors
 $primary: #9966FF;
-// $primary: #8c67ef;
-// $primary: #66CC99;
 $primary-invert: findColorInvert($primary);
 
 $colors: (

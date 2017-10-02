@@ -1,5 +1,5 @@
 const learning = [
-  'SASS / SCSS',
+  'SASS',
   'Sketch',
   'Python'
 ]
