@@ -5,7 +5,7 @@
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <div class="tile is-child notification is-light">
-            <div class="content is-medium bio">
+            <div class="content is-medium has-text-weight-light has-text-justified">
               <img id="maria" src="../assets/headshot.jpg" alt="maria-headshot"
               class="is-pulled-left "width="260">
               <h3 class="title">Hello.</h3>
@@ -13,10 +13,8 @@
               <p>I enjoy creative challenges and work that requires constant learning, which ultimately inspired me to change careers and learn to code through the Galvanize Web Development Immersive.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
             </div>
-            <a class="button is-primary is-outlined">Résumé</a>
-            <a class="button is-primary is-outlined" @click.prevent="jump('#contact')">Contact</a>
-            <div class="is-pulled-left">
-            </div>
+            <a class="button is-primary">Résumé</a>
+            <a class="button is-primary" @click.prevent="jump('#contact')">Contact</a>
           </div>
         </div>
         <div class="tile is-4 is-vertical is-parent">
@@ -30,6 +28,7 @@
             <h4 class="title is-4">Learning</h4>
             <div class="tags">
               <span v-for="learn in list.learning" class="tag is-light">{{ learn }}</span>
+            </div>
             </div>
           </div>
         </div>

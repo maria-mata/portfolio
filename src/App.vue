@@ -66,17 +66,12 @@ $link-focus-border: $primary;
   left: 0;
   right: 0;
   z-index: 1;
-  background: $primary !important;
+  background: $dark !important;
 }
 
 .card {
   height: 82vh;
   overflow: scroll;
-}
-
-.content.is-medium {
-  font-weight: 300;
-  text-align: justify;
 }
 
 #maria {

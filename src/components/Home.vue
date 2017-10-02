@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="hero is-primary is-fullheight">
+  <section id="home" class="hero is-dark is-fullheight">
     <div class="hero-head">
       <header class="nav">
         <div class="container">
@@ -23,7 +23,10 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title is-1">MARIA JOSE <span class="text-is-light">MATA</span></h1>
+        <h1 class="title is-1">
+          <span>MARIA JOSE </span>
+          <span class="has-text-primary">MATA</span>
+        </h1>
         <h3 class="subtitle is-4">JavaScript Developer</h3>
       </div>
     </div>
