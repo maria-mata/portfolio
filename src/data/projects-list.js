@@ -20,7 +20,7 @@ const projectsList = [
     tech: ['jQuery', 'Handlebars', 'Bootstrap', 'Node',
     'Express', 'Knex', 'PostgreSQL', 'Heroku'],
     github: 'https://github.com/maria-mata/dream-catcher',
-    live: 'https://desolate-coast-86563.herokuapp.com/',
+    live: 'https://http://dream-catcher.mjmata.com/',
     image: dreamCatcher,
     alt: 'dream-catcher'
   },
@@ -30,7 +30,7 @@ const projectsList = [
     tech: ['jQuery', 'Materialize', 'Amazon S3', 'Node','Express', 'Knex',
     'PostgreSQL', 'Heroku', 'Firebase'],
     github: 'https://github.com/maria-mata/skill-link',
-    live: 'https://skill-share-8f180.firebaseapp.com/',
+    live: 'https://skill-link.mjmata.com/',
     image: skillLink,
     alt: 'skill-link'
   },
@@ -39,7 +39,7 @@ const projectsList = [
     description: 'Search, browse, and save recipes based on ingredients you have on hand.',
     tech: ['jQuery', 'Materialize','Firebase', 'Edamam API'],
     github: 'https://github.com/maria-mata/fridge-to-table',
-    live: 'https://q1-project-1876f.firebaseapp.com/',
+    live: 'https://fridge-to-table.mjmata.com/',
     image: fridgeToTable,
     alt: 'fridge-to-table'
   }
