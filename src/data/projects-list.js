@@ -20,7 +20,7 @@ const projectsList = [
     tech: ['jQuery', 'Handlebars', 'Bootstrap', 'Node',
     'Express', 'Knex', 'PostgreSQL', 'Heroku'],
     github: 'https://github.com/maria-mata/dream-catcher',
-    live: 'https://http://dream-catcher.mjmata.com/',
+    live: 'http://dream-catcher.mjmata.com/',
     image: dreamCatcher,
     alt: 'dream-catcher'
   },
