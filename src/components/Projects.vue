@@ -6,7 +6,7 @@
         <div class="column is-one-third-desktop" v-for="project in projects">
           <div class="card">
             <div class="card-image">
-              <figure>
+              <figure class="image is-4by3">
                 <img :src="project.image" :alt="project.alt">
               </figure>
             </div>
