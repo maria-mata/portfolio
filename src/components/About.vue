@@ -13,7 +13,7 @@
               <p>I enjoy creative challenges and work that requires constant learning, which ultimately inspired me to change careers and learn to code through the Galvanize Web Development Immersive.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
             </div>
-            <a class="button is-primary">Résumé</a>
+            <!-- <a class="button is-primary">Résumé</a> -->
             <a class="button is-primary" @click.prevent="jump('#contact')">Contact</a>
           </div>
         </div>
