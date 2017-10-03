@@ -13,8 +13,8 @@
           </span>
           <div class="nav-right nav-menu" :class="{ 'is-active': mobile }">
             <a class="nav-item" @click.prevent="jump('#home')" @click="toggleBurger">Home</a>
-            <a class="nav-item" @click.prevent="jump('#about')" @click="toggleBurger">About</a>
-            <a class="nav-item" @click.prevent="jump('#projects')" @click="toggleBurger">Projects</a>
+            <a class="nav-item" @click.prevent="jump('#about', {offset: -40})" @click="toggleBurger">About</a>
+            <a class="nav-item" @click.prevent="jump('#projects', {offset: -40})" @click="toggleBurger">Projects</a>
             <a class="nav-item" @click.prevent="jump('#contact')" @click="toggleBurger">Contact</a>
           </div>
         </div>
