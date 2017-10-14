@@ -66,9 +66,10 @@ $link-focus-border: $primary;
   background: $dark !important;
 }
 
-.card {
-  height: 82vh;
-  overflow: scroll;
+@media (min-width: 1024px) {
+  .card {
+    height: 82vh;
+  }
 }
 
 #maria {
