@@ -23,11 +23,14 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title is-1">
-          <span>MARIA JOSE </span>
-          <span class="has-text-primary">MATA</span>
-        </h1>
-        <h3 class="subtitle is-4">JavaScript Developer</h3>
+        <transition appear appear-active-class="animated fadeInUp">
+          <h1 class="title is-1">
+            <span>MARIA JOSE </span><span class="has-text-primary">MATA</span>
+          </h1>
+        </transition>
+        <transition appear appear-active-class="animated fadeInUp">
+          <h3 class="subtitle is-4">JavaScript Developer</h3>
+        </transition>
       </div>
     </div>
   </section>
