@@ -1,6 +1,5 @@
 const learning = [
-  'SASS',
-  'Sketch',
+  'React',
   'Python'
 ]
 
@@ -13,7 +12,8 @@ const skills = [
   'Bulma',
   'Bootstrap',
   'Materialize',
-  'CLI',
+  'Sketch',
+  'UNIX / CLI',
   'Node.js',
   'Express',
   'Knex.js',
