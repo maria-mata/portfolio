@@ -9,8 +9,8 @@
             class="is-pulled-left" width="260">
             <div class="content is-medium has-text-weight-light has-text-justified">
               <h3 class="title">Hello.</h3>
-              <p>I'm María José Mata, a JavaScript Developer based in Denver, CO. In a previous life, I was a successful conference and events manager at a university, where I kept track of countless moving pieces and managed an average of 100 events yearly.</p>
-              <p>I enjoy creative challenges and work that requires constant learning, which ultimately inspired me to learn to code, change careers, and enroll in the Galvanize Web Development Immersive.</p>
+              <p>I'm Maria, a JavaScript Developer based in Denver who loves to learn, solve problems, and collaborate with talented people. I'm passionate about programming and genuinely enjoy working throughout the stack, from writing routes and queries, to creating compelling user interfaces.</p>
+              <p>In a previous life, I was a successful conference manager, which led me to develop clear communication skills, a sharp eye for detail, and the ability to work in teams effectively.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
             </div>
             <a class="button is-primary" target="_blank" href="./static/Mata-MariaJose-Resume-JSDeveloper.pdf">Résumé</a>
