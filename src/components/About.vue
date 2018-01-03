@@ -13,7 +13,7 @@
               <p>In a previous life, I was a successful conference manager, which led me to develop clear communication skills, a sharp eye for detail, and the ability to work in teams effectively.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
             </div>
-            <a class="button is-primary" target="_blank" href="./static/Mata-MariaJose-Resume-JSDeveloper.pdf">Résumé</a>
+            <a class="button is-primary" target="_blank" href="./static/Mata-MariaJose-Resume-SoftwareDeveloper.pdf">Résumé</a>
             <a class="button is-primary" @click.prevent="jump('#contact')">Contact</a>
           </div>
         </div>
