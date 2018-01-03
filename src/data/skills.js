@@ -1,12 +1,23 @@
 const learning = [
-  'React',
-  'Python'
+  'Sass',
+  'MongoDB',
+  'TDD'
 ]
 
 const skills = [
   'JavaScript',
+  'React',
   'Vue.js',
+  'Node.js',
+  'Express',
+  'Knex.js',
+  'Mocha / Chai',
   'jQuery',
+  'Handlebars.js',
+  'Python',
+  'Flask',
+  'PostgreSQL',
+  'SQL',
   'HTML',
   'CSS',
   'Bulma',
@@ -14,13 +25,7 @@ const skills = [
   'Materialize',
   'Sketch',
   'UNIX / CLI',
-  'Node.js',
-  'Express',
-  'Knex.js',
-  'SQL',
-  'PostgreSQL',
   'Git / GitHub',
-  'Mocha / Chai',
   'Responsive Design',
   'Agile Workflow',
   'Pair Programming'

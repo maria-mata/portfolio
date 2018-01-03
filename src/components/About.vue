@@ -9,7 +9,7 @@
             class="is-pulled-left" width="260">
             <div class="content is-medium has-text-weight-light">
               <h3 class="title">Hello.</h3>
-              <p>I'm Maria, a JavaScript Developer based in Denver who loves to learn, solve problems, and collaborate with talented people. I'm passionate about programming and genuinely enjoy working throughout the stack, from writing routes and queries, to creating compelling user interfaces.</p>
+              <p>I'm Maria, a Software Developer based in Denver who loves to learn, solve problems, and collaborate with talented people. I'm passionate about programming and genuinely enjoy working throughout the stack, from writing routes and queries, to creating compelling user interfaces.</p>
               <p>In a previous life, I was a successful conference manager, which led me to develop clear communication skills, a sharp eye for detail, and the ability to work in teams effectively.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
             </div>

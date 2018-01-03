@@ -29,7 +29,7 @@
           </h1>
         </transition>
         <transition appear appear-active-class="animated fadeInUp">
-          <h3 class="subtitle is-4">JavaScript Developer</h3>
+          <h3 class="subtitle is-4">Software Developer</h3>
         </transition>
       </div>
     </div>

@@ -16,7 +16,7 @@
         </a>
         <br>
         <br>
-        <p><i class="fa fa-copyright"></i> 2017 María José Mata //
+        <p><i class="fa fa-copyright"></i> 2018 María José Mata //
           <a href="https://github.com/maria-mata/portfolio" target="_blank">
             <i class="fa fa-github"></i> Site Source
           </a>
