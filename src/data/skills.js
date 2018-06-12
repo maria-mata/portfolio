@@ -1,12 +1,11 @@
 const learning = [
-  'Sass',
-  'MongoDB',
-  'TDD'
 ]
 
 const skills = [
   'JavaScript',
   'React',
+  'Redux',
+  'Immutable',
   'Vue.js',
   'Node.js',
   'Express',
@@ -14,18 +13,25 @@ const skills = [
   'Mocha / Chai',
   'jQuery',
   'Handlebars.js',
+  'PHP',
+  'Doctrine',
+  'CakePHP',
   'Python',
   'Flask',
-  'PostgreSQL',
+  'GraphQL',
   'SQL',
+  'MySQL',
+  'PostgreSQL',
   'HTML',
   'CSS',
+  'Sass (SCSS)',
   'Bulma',
   'Bootstrap',
   'Materialize',
   'Sketch',
-  'UNIX / CLI',
+  'Unix / CLI',
   'Git / GitHub',
+  'JIRA / Confluence',
   'Responsive Design',
   'Agile Workflow',
   'Pair Programming'

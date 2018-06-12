@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="hero is-dark is-fullheight">
+  <section id="home" class="hero is-fullheight">
     <div class="hero-head">
       <header class="nav">
         <div class="container">
@@ -13,8 +13,8 @@
           </span>
           <div class="nav-right nav-menu" :class="{ 'is-active': mobile }">
             <a class="nav-item" @click.prevent="jump('#home')" @click="toggleBurger">Home</a>
-            <a class="nav-item" @click.prevent="jump('#about', {offset: -40})" @click="toggleBurger">About</a>
-            <a class="nav-item" @click.prevent="jump('#projects', {offset: -40})" @click="toggleBurger">Projects</a>
+            <a class="nav-item" @click.prevent="jump('#about', {offset: -50})" @click="toggleBurger">About</a>
+            <a class="nav-item" @click.prevent="jump('#projects', {offset: -50})" @click="toggleBurger">Projects</a>
             <a class="nav-item" @click.prevent="jump('#contact')" @click="toggleBurger">Contact</a>
           </div>
         </div>
@@ -24,8 +24,8 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <transition appear appear-active-class="animated fadeInUp">
-          <h1 class="title is-1">
-            <span>MARIA JOSE </span><span class="has-text-primary">MATA</span>
+          <h1 class="title is-1 text-light">
+            <span class="maria-name">Maria Mata</span>
           </h1>
         </transition>
         <transition appear appear-active-class="animated fadeInUp">

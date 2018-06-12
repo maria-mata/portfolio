@@ -15,7 +15,7 @@
                 <nav class="level is-mobile">
                   <div class="level-left">
                     <div class="level-item">
-                      <h3 class="title">{{ project.name }}</h3>
+                      <h3 class="title is-5">{{ project.name }}</h3>
                     </div>
                   </div>
                   <div class="level-right">

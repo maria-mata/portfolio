@@ -28,8 +28,9 @@ export default {
 @import "~bulma/sass/utilities/_all";
 
 // Colors
-$primary: #9966FF;
+$primary: #3e8f91;
 $primary-invert: findColorInvert($primary);
+$secondary: rgb(245, 183, 121);
 
 $colors: (
     "white": ($white, $black),
@@ -44,9 +45,12 @@ $colors: (
 );
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400');
-$family-serif: 'Fira Sans', sans-serif;
-$family-primary: $family-serif;
+@import url('https://fonts.googleapis.com/css?family=Arya:700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400i');
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,700');
+
+$body-font: 'Hind Guntur', sans-serif;
+$family-primary: $body-font;
 
 // Links
 $link: $primary;
@@ -58,12 +62,13 @@ $link-focus-border: $primary;
 @import "~buefy/src/scss/buefy";
 
 .nav {
+  background: rgba($white, 0.8) !important;
+  border-bottom: .5px solid darken($light, 5%);
   position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
-  background: $dark !important;
 }
 
 @media (min-width: 1024px) {
@@ -75,5 +80,40 @@ $link-focus-border: $primary;
 #maria {
   margin-right: 1em;
   border-radius: .2em;
+}
+
+.hero {
+  background-image: linear-gradient(
+    to bottom,
+    rgba($white, 0.3),
+    rgba($primary, 1)
+  ),
+  url(../src/assets/hero-background.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.title {
+  &:not(.is-5) {
+    font-family: 'Arya', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &.is-1 {
+    font-size: 5rem;
+
+    .maria-name {
+      background-image: linear-gradient(to right, lighten($secondary, 25%), $secondary);
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+  }
+}
+
+.subtitle.is-4 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  color: $light;
 }
 </style>
