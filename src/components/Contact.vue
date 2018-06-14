@@ -3,7 +3,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <figure>
-          <img src="../assets/maria-logo.png" alt="maria-logo" width="150">
+          <img src="../assets/logo-teal.png" alt="maria-logo" width="150">
         </figure>
         <a href="mailto:mariajo.mata@gmail.com" target="_blank">
           <span class="icon is-medium"><i class="fa fa-envelope"></i></span>
@@ -16,11 +16,7 @@
         </a>
         <br>
         <br>
-        <p><i class="fa fa-copyright"></i> 2018 María José Mata //
-          <a href="https://github.com/maria-mata/portfolio" target="_blank">
-            <i class="fa fa-github"></i> Site Source
-          </a>
-        </p>
+        <p><i class="fa fa-copyright"></i> 2018 Maria Mata</p>
       </div>
     </div>
   </footer>

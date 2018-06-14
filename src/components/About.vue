@@ -5,15 +5,14 @@
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <div class="tile is-child notification is-light">
-            <img id="maria" src="../assets/maria-headshot.jpg" alt="maria-headshot"
-            class="is-pulled-left" width="260">
+            <img id="maria" src="../assets/maria-headshot.jpg" alt="maria-headshot">
             <div class="content">
               <h3 class="title is-5">Hello.</h3>
               <p>I'm Maria, a Software Developer based in Denver who loves to learn, solve problems, and collaborate with talented people. I'm passionate about programming and genuinely enjoy working throughout the stack, from writing routes and queries, to creating compelling user interfaces.</p>
-              <p>In a previous life, I was a successful conference manager, which led me to develop clear communication skills, a sharp eye for detail, and the ability to work in teams effectively.</p>
+              <p>In a previous life, I was a successful program manager, which led me to develop clear communication skills, a sharp eye for detail, and the ability to work in teams effectively.</p>
               <p>I'm actively seeking a developer role in a collaborative environment that fosters innovation and growth. Let's talk!</p>
             </div>
-            <a class="button is-primary" target="_blank" href="./static/Mata-MariaJose-Resume-SoftwareDeveloper.pdf">Résumé</a>
+            <a class="button is-primary" target="_blank" href="./static/Mata-Maria-SoftwareDeveloper-Resume.pdf">Résumé</a>
             <a class="button is-primary" @click.prevent="jump('#contact')">Contact</a>
           </div>
         </div>

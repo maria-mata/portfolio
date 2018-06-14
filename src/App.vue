@@ -71,15 +71,25 @@ $link-focus-border: $primary;
   z-index: 1;
 }
 
-@media (min-width: 1024px) {
-  .card {
-    height: 82vh;
-  }
+.card {
+  height: 100%;
+}
+
+.tile.is-child.notification.is-light {
+  padding-right: 1.25rem;
 }
 
 #maria {
-  margin-right: 1em;
+  margin-bottom: 1em;
   border-radius: .2em;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    float: left;
+    margin-bottom: .5em;
+    margin-right: 1em;
+    width: 30%;
+  }
 }
 
 .hero {
