@@ -1,0 +1,137 @@
+@import 'variables.scss';
+
+// Reset
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 50%;
+  scroll-behavior: smooth;
+
+  @media only screen and (min-width: $screen-mobile-landscape) {
+    font-size: 62.5%;
+  }
+
+  @media only screen and (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+// Content & general page styles
+body {
+  box-sizing: border-box;
+  color: $color-grey-dark;
+  font-family: $font-family;
+  font-size: $font-size-body;
+  line-height: 1.6;
+  margin: 0;
+  
+  *::selection {
+    background-color: lighten($color-secondary, 30%);
+  }
+}
+
+*:focus {
+  outline-color: lighten($color-secondary, 20%);
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  box-shadow: inset 0 -0.125em $color-primary-light;
+  color: $color-primary;
+  position: relative;
+  transition: color 0.2s;
+  z-index: 0;
+  transition: all 0.2s;
+}
+
+a:hover {
+  box-shadow: inset 0 -1.375em 0 $color-primary-light;
+}
+
+p {
+  &:not(:last-child) {
+    margin-bottom: $paragraph-spacing;
+  }
+
+  code[class*='language-'] {
+    font-size: $font-size-code;
+  }
+}
+
+small {
+  font-size: $font-size-small;
+}
+
+blockquote {
+  color: lighten($color-grey-dark, 30%);
+  font-style: italic;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0.1rem;
+    left: -2rem;
+    background: $color-grey-dark;
+    height: 100%;
+    width: 0.5rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border: 0.05rem solid lighten($color-grey-dark, 50%);
+  margin: $paragraph-spacing auto;
+}
+
+// layout component
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  nav {
+    padding: $padding-small 0;
+  
+    ul {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      li {
+        margin-left: 2rem;
+        &:first-child {
+          margin-right: auto;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: $container;
+}
