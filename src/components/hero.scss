@@ -1,22 +1,37 @@
 .hero {
   height: calc(100vh - $header-height - $footer-height - $spacing-xlarge);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-bottom: $spacing-xlarge;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
-  h1, h2 {
-    line-height: 1;
-    font-family: $font-family-accent;
-    margin-bottom: $spacing-small;
+  &__image {
+    max-width: 25rem;
+    img {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 100%;
+    }
   }
   
-  h1 {
-    color: $color-accent;
-    font-size: 6rem;
-  }
-
-  h2 {
-    font-size: 3rem;
+  &__content {
+    margin-left: $spacing-large;
+    justify-content: center;
+  
+    h1, h2 {
+      font-family: $font-family-accent;
+      margin-bottom: $spacing-small;
+    }
+    
+    h1 {
+      line-height: 1;
+      color: $color-accent;
+      font-size: 6rem;
+    }
+  
+    h2 {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
   }
 }
