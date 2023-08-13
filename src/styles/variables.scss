@@ -1,0 +1,38 @@
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Ubuntu:wght@700&display=swap');
+
+// Colors
+$color-primary: #000;
+$color-background: #fff;
+$color-accent: #845ef7;
+$color-accent-light: lighten($color-accent, 30%);
+
+// Typography
+$font-family: 'Open Sans', sans-serif;
+$font-family-accent: 'Ubuntu', sans-serif;
+$paragraph-spacing: 2.8rem;
+$font-size-body: 1.75rem;
+$line-height-body: 1.6;
+
+// Breakpoints
+$screen-mobile-portrait: 375px;
+$screen-mobile-landscape: 568px;
+$screen-tablet-portrait: 768px;
+$screen-tablet-landscape: 1024px;
+$screen-desktop: 1150px;
+$screen-desktop-medium: 1366px;
+$screen-desktop-large: 1681px;
+
+// Dimensions
+$page-width: 90rem;
+$header-height: 9rem;
+$footer-height: 13rem;
+
+// spacing
+$spacing-small: 2rem;
+$spacing-medium: 3rem;
+$spacing-large: 6rem;
+$spacing-xlarge: 10rem;
+
+// Perspective
+$box-shadow-card: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);

@@ -1,10 +1,10 @@
-@import 'variables.scss';
+// @import 'variables.scss';
 
 .button {
-  background: $gradient;
+  border: .2rem solid $color-primary;
   border-radius: 2rem;
-  border: none;
-  color: $color-grey-light;
+  color: $color-primary;
+  background-color: transparent;
   font-family: $font-family;
   font-size: $font-size-body;
   margin: 0 auto;
@@ -14,7 +14,7 @@
   cursor: pointer;
 
   &:hover {
-    background: $gradient-dark;
+    // background: $gradient-dark;
   }
 
   &:disabled {

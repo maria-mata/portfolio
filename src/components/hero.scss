@@ -1,0 +1,22 @@
+.hero {
+  height: calc(100vh - $header-height - $footer-height - $spacing-xlarge);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: $spacing-xlarge;
+  
+  h1, h2 {
+    line-height: 1;
+    font-family: $font-family-accent;
+    margin-bottom: $spacing-small;
+  }
+  
+  h1 {
+    color: $color-accent;
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
