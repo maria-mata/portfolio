@@ -3,12 +3,14 @@ import { Link } from 'gatsby';
 import './layout.scss';
 
 export default function Layout ({ children }) {
+  const year = new Date().getFullYear();
+
   return (
     <div className="layout">
       <header>
         <nav className="container">
-          <ul className="header__links">
-            <li><Link to="/">[mariamata](dev)</Link></li>
+          <ul>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/#about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
@@ -18,13 +20,20 @@ export default function Layout ({ children }) {
         {children}
       </main>
       <footer>
-        <nav className="container">
-          <ul className="footer__links">
-            <li><Link to="/">Logo</Link></li>
-            <li><Link to="/#about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
+        <div className="container">
+          <nav>
+            <ul>
+              <li><Link to="/">Logo</Link></li>
+              <li><Link to="/#about">About</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+            </ul>
+          </nav>
+          <div className="copyright">
+            <small>
+              © {year} Maria Jose Mata
+            </small>
+          </div>
+        </div>
       </footer>
     </div>
   )

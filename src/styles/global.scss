@@ -80,3 +80,9 @@ hr {
   border: 0.05rem solid lighten($color-accent, 50%);
   margin: $paragraph-spacing auto;
 }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: $page-width;
+}
