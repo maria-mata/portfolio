@@ -85,4 +85,8 @@ hr {
   display: block;
   margin: 0 auto;
   max-width: $page-width;
+
+  &--nav {
+    max-width: calc($page-width + 4rem);
+  }
 }

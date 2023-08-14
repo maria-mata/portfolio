@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="hero__content">
         <h1>I'm Maria <span aria-label="Hello">👋</span></h1>
         <h2>I build beautiful, responsive and accessible web products</h2>
-        <p>Welcome to my website, where I share examples of my work. I'm currently searching for my next remote role and have outlined <Link>a few reasons</Link> why you may want me on your team. Let's connect!</p>
+        <p>Welcome to my portfolio site. I'm currently searching for my next remote role and have outlined <Link>a few reasons</Link> why you may want me on your team. Let's connect!</p>
       </div>
     </section>
   );

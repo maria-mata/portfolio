@@ -8,7 +8,7 @@ export default function Layout ({ children }) {
   return (
     <div className="layout">
       <header>
-        <nav className="container">
+        <nav className="container container--nav">
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/#about">About</Link></li>
@@ -20,7 +20,7 @@ export default function Layout ({ children }) {
         {children}
       </main>
       <footer>
-        <div className="container">
+        <div className="container container--nav">
           <nav>
             <ul>
               <li><Link to="/">Logo</Link></li>
@@ -28,7 +28,7 @@ export default function Layout ({ children }) {
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
-          <div className="copyright">
+          <div className="copyright container">
             <small>
               © {year} Maria Jose Mata
             </small>
