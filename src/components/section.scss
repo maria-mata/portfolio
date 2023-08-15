@@ -1,0 +1,9 @@
+.section {
+  margin-bottom: $spacing-xlarge;
+
+  &__title {
+    font-family: $font-family-accent;
+    font-size: 3rem;
+  }
+}
+
