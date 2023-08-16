@@ -51,9 +51,9 @@ export default function ContactForm({ setSuccess }) {
   }, []);
 
   return (
-    <form className="c-form" onSubmit={onSubmit}>
+    <form className="contact-form" onSubmit={onSubmit}>
       {error && (
-        <small className="c-form__small">
+        <small className="contact-form__small">
           Oops! Some info is missing or incorrect. Please try again.
         </small>
       )}

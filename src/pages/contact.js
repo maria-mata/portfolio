@@ -37,6 +37,6 @@ const ContactPage = () => {
   );
 }
 
-export const Head = () => <title>Maria Jose Mata, Software Engineer | Contact</title>
+export const Head = () => <title>Contact | Maria Jose Mata, Software Engineer</title>
 
 export default ContactPage

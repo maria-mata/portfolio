@@ -12,6 +12,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <title>Maria Jose Mata, Software Engineer | Home</title>
+export const Head = () => <title>Maria Jose Mata, Software Engineer</title>
 
 export default IndexPage
