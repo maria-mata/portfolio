@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import Section from '../components/section';
-import ImageWrapper from '../components/ImageWrapper';
+import ImageWrapper from '../components/imageWrapper';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const NotFoundPage = () => {
