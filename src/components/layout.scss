@@ -39,9 +39,7 @@
 
   footer {
     margin-top: auto;
-    // padding: $spacing-small;
     background-color: $color-primary;
-    height: $footer-height;
     color: $color-background;
 
     a {
@@ -54,14 +52,16 @@
       color: $color-background;
       border-radius: $border-radius-nav;
       transition: all .2s ease;
+      outline: .2rem solid transparent;
       &:hover {
-        outline: .15rem solid $color-accent;
+        outline: .2rem solid $color-accent;
       }
     } 
     
     .copyright {
       font-size: 1.5rem;
-      // text-align: center;
+      padding-left: $spacing-small;
+      padding-bottom: $spacing-small;
     }
   }
 }

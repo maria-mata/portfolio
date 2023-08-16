@@ -28,9 +28,9 @@ export default function Layout ({ children }) {
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
-          <div className="copyright container">
+          <div className="copyright">
             <small>
-              © {year} Maria Jose Mata
+              © {year} Maria Jose Mata. See on GitHub.
             </small>
           </div>
         </div>
