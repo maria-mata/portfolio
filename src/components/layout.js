@@ -8,7 +8,7 @@ export default function Layout ({ children }) {
   return (
     <div className="layout">
       <header>
-        <nav className="container container--nav">
+        <nav className="container">
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/#about">About</Link></li>
@@ -20,7 +20,7 @@ export default function Layout ({ children }) {
         {children}
       </main>
       <footer>
-        <div className="container container--nav">
+        <div className="container">
           <nav>
             <ul>
               <li><Link to="/">Logo</Link></li>

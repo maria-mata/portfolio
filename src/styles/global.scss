@@ -87,8 +87,4 @@ hr {
   margin: 0 auto;
   max-width: $page-width;
   padding: 0 $spacing-medium;
-
-  &--nav {
-    max-width: calc($page-width + 4rem);
-  }
 }

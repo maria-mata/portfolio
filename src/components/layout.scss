@@ -7,6 +7,10 @@
   header {
     height: $header-height;
 
+    nav {
+      padding: $spacing-medium 1rem;
+    }
+
     a {
       box-shadow: none;
       color: $color-primary;
@@ -20,8 +24,6 @@
   }
 
   nav {
-    padding: $spacing-medium 0;
-  
     ul {
       display: flex;
       justify-content: right;
@@ -42,15 +44,23 @@
     background-color: $color-primary;
     color: $color-background;
 
+    .container {
+      padding: $spacing-medium 1rem;
+    }
+    
+    nav {
+      margin-bottom: $spacing-medium;
+    }
+
     a {
       box-shadow: none;
       text-transform: uppercase;
       font-size: 1.4rem;
       font-weight: 600;
       letter-spacing: .1rem;
-      padding: .5rem 2rem;
       color: $color-background;
       border-radius: $border-radius-nav;
+      padding: .5rem 2rem;
       transition: all .2s ease;
       outline: .2rem solid transparent;
       &:hover {

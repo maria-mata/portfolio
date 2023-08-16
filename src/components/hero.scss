@@ -1,7 +1,12 @@
 .hero {
-  margin-top: calc($spacing-xlarge * 2);
-  margin-bottom: calc($spacing-xlarge * 3);
   @include mobile-flex;
+  padding-top: $spacing-xlarge;
+  padding-bottom: $spacing-large;
+
+  @media screen and (min-width: $screen-tablet-portrait) {
+    padding-top: calc($spacing-xlarge * 2);
+    padding-bottom: calc($spacing-xlarge * 2);
+  }
   
   &__image {
     max-width: 25rem;

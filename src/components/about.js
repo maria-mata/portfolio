@@ -1,7 +1,7 @@
 import React, { } from 'react';
 import Section from './section';
 import { graphql, useStaticQuery } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
+// import { StaticImage } from 'gatsby-plugin-image';
 
 export default function About() {
   const { markdownRemark } = useStaticQuery(graphql`
@@ -15,9 +15,9 @@ export default function About() {
   return (
     <Section title="About" sectiondId="about">
       <div dangerouslySetInnerHTML={{ __html: html }} />
-      <div className="about__image">
+      {/* <div className="about__image">
         <StaticImage />
-      </div>
+      </div> */}
     </Section>
   );
 }
