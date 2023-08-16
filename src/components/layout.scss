@@ -7,6 +7,10 @@
   header {
     height: $header-height;
 
+    nav {
+      padding: $spacing-medium 1rem;
+    }
+
     a {
       box-shadow: none;
       color: $color-primary;
@@ -20,8 +24,6 @@
   }
 
   nav {
-    padding: $spacing-medium 0;
-  
     ul {
       display: flex;
       justify-content: right;
@@ -39,10 +41,16 @@
 
   footer {
     margin-top: auto;
-    // padding: $spacing-small;
     background-color: $color-primary;
-    height: $footer-height;
     color: $color-background;
+
+    .container {
+      padding: $spacing-medium 1rem;
+    }
+    
+    nav {
+      margin-bottom: $spacing-medium;
+    }
 
     a {
       box-shadow: none;
@@ -50,18 +58,20 @@
       font-size: 1.4rem;
       font-weight: 600;
       letter-spacing: .1rem;
-      padding: .5rem 2rem;
       color: $color-background;
       border-radius: $border-radius-nav;
+      padding: .5rem 2rem;
       transition: all .2s ease;
+      outline: .2rem solid transparent;
       &:hover {
-        outline: .15rem solid $color-accent;
+        outline: .2rem solid $color-accent;
       }
     } 
     
     .copyright {
       font-size: 1.5rem;
-      // text-align: center;
+      padding-left: $spacing-small;
+      padding-bottom: $spacing-small;
     }
   }
 }

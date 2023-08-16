@@ -1,9 +1,14 @@
 .section {
+  margin-top: $spacing-large;
   margin-bottom: $spacing-xlarge;
 
   &__title {
     font-family: $font-family-accent;
     font-size: 3rem;
+  }
+
+  &--narrow {
+    max-width: 60rem;
   }
 }
 

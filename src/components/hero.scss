@@ -1,14 +1,15 @@
 .hero {
-  height: calc(100vh - $header-height - $footer-height);
-  margin-top: $spacing-large;
-  margin-bottom: $spacing-xlarge;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include mobile-flex;
+  padding-top: $spacing-xlarge;
+  padding-bottom: $spacing-large;
+
+  @media screen and (min-width: $screen-tablet-portrait) {
+    padding-top: calc($spacing-xlarge * 2);
+    padding-bottom: calc($spacing-xlarge * 2);
+  }
   
   &__image {
     max-width: 25rem;
-    margin-left: $spacing-large;
     img {
       border-radius: 50%;
       width: 100%;
@@ -16,7 +17,6 @@
   }
   
   &__content {
-    margin-left: $spacing-xlarge;
     justify-content: center;
   
     h1, h2 {

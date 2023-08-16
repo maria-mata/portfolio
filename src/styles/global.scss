@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "./mixins.scss";
 
 // Reset
 *,
@@ -85,8 +86,5 @@ hr {
   display: block;
   margin: 0 auto;
   max-width: $page-width;
-
-  &--nav {
-    max-width: calc($page-width + 4rem);
-  }
+  padding: 0 $spacing-medium;
 }
