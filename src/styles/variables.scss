@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Ubuntu:wght@700&display=swap');
 
 // Colors
-$color-primary: #000;
-$color-background: #fff;
+$color-black: #000;
+$color-white: #fff;
 $color-accent: #845ef7;
-$color-accent-light: lighten($color-accent, 30%);
+$color-accent-light: #e5dbff;
+$color-accent-dark: #5f3dc4;
+$color-gray: #868e96;
+$color-white-transparent: rgba(255, 255, 255, .15);
 
 // Typography
 $font-family: 'Open Sans', sans-serif;
