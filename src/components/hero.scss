@@ -9,7 +9,12 @@
   }
   
   &__image {
-    max-width: 25rem;
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    box-shadow: $box-shadow;
+    border-radius: 50%;
+    overflow: hidden;
     img {
       border-radius: 50%;
       width: 100%;

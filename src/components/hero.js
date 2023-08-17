@@ -20,7 +20,6 @@ export default function Hero() {
           <StaticImage 
             src="../images/mata-mariajose-headshot.jpg"
             alt="Maria Jose Mata, Software Engineer"
-            layout="fixed"
             width={250}
             height={250}
           />

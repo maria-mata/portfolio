@@ -1,8 +1,11 @@
 .image-wrapper {
   max-width: 45rem;
+  min-width: 30rem;
   margin-bottom: 1rem;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  overflow: hidden;
   img {
-    border-radius: $border-radius;
     width: 100%;
   }
 }
