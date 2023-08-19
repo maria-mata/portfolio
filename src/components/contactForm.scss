@@ -18,13 +18,14 @@
   input, textarea {
     padding: 1rem 1.5rem;
     border-radius: $border-radius;
-    border: .1rem solid $color-black;
+    border: .1rem solid $color-gray;
     flex-grow: 1;
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-family: $font-family;
     font-size: $font-size-body;
     color: inherit;
+    background-color: rgba(0, 0, 0, .02);
   }
 }
 
