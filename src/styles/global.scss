@@ -88,3 +88,8 @@ hr {
   max-width: $page-width;
   padding: 0 $spacing-medium;
 }
+
+// code blocks
+.gatsby-highlight pre {
+  border-radius: $border-radius;
+}
