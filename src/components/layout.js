@@ -15,9 +15,9 @@ export default function Layout ({ children }) {
         <div className="container">
           <nav>
             <ul>
-              <li><Link className="nav-link" to="/">Home</Link></li>
-              <li><Link className="nav-link" to="/#about">About</Link></li>
-              <li><Link className="nav-link" to="/contact">Contact</Link></li>
+              <li><Link className="nav-link styled-link" to="/">Home</Link></li>
+              <li><Link className="nav-link styled-link" to="/#about">About</Link></li>
+              <li><Link className="nav-link styled-link" to="/contact">Contact</Link></li>
               <li><ThemeButton dark={dark} onClick={toggleDark} /></li>
             </ul>
           </nav>
@@ -30,9 +30,9 @@ export default function Layout ({ children }) {
         <div className="container">
           <nav>
             <ul>
-              <li><Link className="nav-link nav-link--footer" to="/">Logo</Link></li>
-              <li><Link className="nav-link nav-link--footer" to="/#about">About</Link></li>
-              <li><Link className="nav-link nav-link--footer" to="/contact">Contact</Link></li>
+              <li><Link className="nav-link nav-link--footer styled-link" to="/">Logo</Link></li>
+              <li><Link className="nav-link nav-link--footer styled-link" to="/#about">About</Link></li>
+              <li><Link className="nav-link nav-link--footer styled-link" to="/contact">Contact</Link></li>
             </ul>
           </nav>
           <div className="copyright">

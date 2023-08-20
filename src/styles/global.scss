@@ -89,6 +89,22 @@ hr {
   padding: 0 $spacing-medium;
 }
 
+.styled-link,
+.styled-link:active,
+.styled-link:link,
+.styled-link:visited  {
+  box-shadow: none;
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+// icons
+svg {
+  fill: $color-black;
+  width: $font-size-body;
+}
+
 // code blocks
 .gatsby-highlight pre {
   border-radius: $border-radius;
