@@ -78,7 +78,7 @@ const skills = [
 function Skill({ name, icon: Icon }) {
   return (
     <li>
-      <Icon />
+      <Icon aria-hidden="true" />
       <span>{name}</span>
     </li>
   );

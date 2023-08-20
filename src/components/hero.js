@@ -19,8 +19,7 @@ export default function Hero() {
   const linkAttrs = {
     target: '_blank',
     rel: 'nofollow noopener noreferrer',
-    ariaLabel: 'External Link',
-    className: 'styled-link'
+    className: 'styled-link',
   };
 
   return (
@@ -37,20 +36,20 @@ export default function Hero() {
         <div className="hero__content">
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <div className="hero__links">
-            <a {...linkAttrs} href="https://www.linkedin.com/in/mjmata/">
-              <Linkedin />
+            <a {...linkAttrs} href="https://www.linkedin.com/in/mjmata/" aria-label="LinkedIn">
+              <Linkedin aria-hidden="true" />
               <span>
                 LinkedIn
               </span>
             </a>
-            <a {...linkAttrs} href="https://github.com/maria-mata">
-              <Github />
+            <a {...linkAttrs} href="https://github.com/maria-mata" aria-label="GitHub">
+              <Github aria-hidden="true" />
               <span>
                 GitHub
               </span>
             </a>
-            <Link className="styled-link" to="/contact">
-              <Email />
+            <Link aria-label="Contact" className="styled-link" to="/contact">
+              <Email aria-hidden="true" />
               <span>
                 Message
               </span>

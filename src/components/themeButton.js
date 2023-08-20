@@ -1,17 +1,21 @@
 import React from 'react';
+import Sun from '../icons/sun';
+import Moon from '../icons/moon';
 import './themeButton.scss';
 
 export default function ThemeButton({ dark, onClick }) {
   const classList = `theme-button${dark ? ' theme-button--dark': ''}`
+  const aria = dark ? 'Light theme' : 'Dark theme';
 
   return (
-    <button className={classList} onClick={onClick}>
-      <div>
-        { dark 
-          ? (<span role="img" aria-label="moon">🌙</span>)
-          : (<span role="img" aria-label="sun">☀️</span>)
-        }
-      </div>
+    <button 
+      aria-label={aria} 
+      className={classList} 
+      onClick={onClick}>
+      { dark 
+        ? <Sun aria-hidden="true" />
+        : <Moon aria-hidden="true" />
+      }
     </button>
   );
 }
