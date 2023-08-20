@@ -1,0 +1,22 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: $spacing-small;
+
+  li {
+    display: flex;
+    align-items: center;
+    padding: .25rem 1rem;
+    background-color: $color-accent-light;
+    border-radius: $border-radius;
+    flex: 0 0 auto;
+    
+    span {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.layout--dark .skills li {
+  background-color: $color-white-transparent;
+}

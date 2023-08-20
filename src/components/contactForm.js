@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Button from './button';
 import './contactForm.scss';
 
 // Code from https://emailregex.com/
@@ -102,9 +103,9 @@ export default function ContactForm({ setSuccess }) {
         />
       </div>
       <div>
-        <button className="c-button" disabled={sending} type="submit">
+        <Button disabled={sending} type="submit">
           Send
-        </button>
+        </Button>
       </div>
     </form>
   );

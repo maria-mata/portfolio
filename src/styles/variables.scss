@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Ubuntu:wght@700&display=swap');
 
 // Colors
-$color-primary: #000;
-$color-background: #fff;
+$color-black: #000;
+$color-white: #fff;
 $color-accent: #845ef7;
-$color-accent-light: lighten($color-accent, 30%);
+$color-accent-light: #f3f0ff;
+$color-gray: #adb5bd;
+$color-white-transparent: rgba(255, 255, 255, .15);
 
 // Typography
 $font-family: 'Open Sans', sans-serif;
@@ -36,5 +38,5 @@ $spacing-xlarge: 10rem;
 
 // Perspective
 $border-radius: 1rem;
-$box-shadow-card: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+$box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 $border-radius-nav: 2rem;

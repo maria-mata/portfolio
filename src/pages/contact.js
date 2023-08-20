@@ -6,7 +6,7 @@ import ContactForm from '../components/contactForm';
 function BackToForm({ callback }) {
   return (
     <>
-      <p>Success! Your message has been sent and I will get back to you soon. 🤓</p>
+      <p>Success! Your message has been sent and I will get back to you soon. <span role="img" aria-label="email">📧</span></p>
       <button className="c-button" onClick={callback}>
         Back to form
       </button>
@@ -28,7 +28,7 @@ const ContactPage = () => {
           <BackToForm callback={() => setSuccess(false)} />
           ) : (
             <>
-            <p>Hi there! Please send me a message via this form and I will respond as soon as possible. Have a great day. ☀️</p>
+            <p>Hi there, please send me a message via this form and I will respond as soon as possible. Have a great day. <span role="img" aria-label="sun">☀️</span></p>
             <ContactForm setSuccess={setSuccess} />
           </>
         ) }

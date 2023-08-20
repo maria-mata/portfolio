@@ -1,7 +1,9 @@
 import React, { } from 'react';
 import Section from './section';
 import { graphql, useStaticQuery } from 'gatsby';
-// import { StaticImage } from 'gatsby-plugin-image';
+import './about.scss';
+
+// TODO: figure out mobile image resizing with JS
 
 export default function About() {
   const { markdownRemark } = useStaticQuery(graphql`
@@ -14,10 +16,9 @@ export default function About() {
 
   return (
     <Section title="About" sectiondId="about">
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-      {/* <div className="about__image">
-        <StaticImage />
-      </div> */}
+      <div className="about">
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
     </Section>
   );
 }
