@@ -28,35 +28,3 @@
     background-color: rgba(0, 0, 0, .02);
   }
 }
-
-.c-button {
-  width: auto;
-  height: auto;
-  background: $color-accent;
-  background: linear-gradient(to right, $color-accent 50%, $color-white 50%);
-  background-size: 205% 100%;
-  background-position: right bottom;
-  border-radius: $border-radius-nav;
-  border: 0.1rem solid $color-accent;
-  padding: .5rem 2rem;
-  transition: all 0.2s ease-out;
-  color: $color-accent;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-decoration-skip: ink;
-  text-decoration-skip-ink: auto;
-  cursor: pointer;
-  font-size: $font-size-body;
-  // line-height: 1.5rem;
-}
-
-.c-button:hover {
-  background-position: left bottom;
-  color: $color-white;
-}
-
-.c-button:focus {
-  outline-color: $color-accent;
-  outline-style: dotted;
-  outline-width: 2px;
-}
