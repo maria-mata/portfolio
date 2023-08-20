@@ -38,7 +38,7 @@
 
   header, footer {
     .container {
-      padding: $spacing-medium 1rem;
+      padding: $spacing-medium;
     }
   
     nav {
@@ -69,7 +69,6 @@
     
     .copyright {
       font-size: 1.5rem;
-      padding-left: $spacing-small;
       padding-bottom: $spacing-small;
     }
   }

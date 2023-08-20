@@ -37,7 +37,7 @@ export default function Layout ({ children }) {
           </nav>
           <div className="copyright">
             <small>
-              © {year} Maria Jose Mata. See on GitHub.
+              © {year} Maria Jose Mata. <a href="https://github.com/maria-mata/portfolio" target="_blank" rel="nofollow noopener noreferrer">See on GitHub</a>.
             </small>
           </div>
         </div>
