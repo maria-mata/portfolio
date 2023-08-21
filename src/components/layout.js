@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'gatsby';
 import ThemeButton from './themeButton';
 import { ThemeContext } from '../context/themeContext';
+import Logo from '../icons/logo';
 import './layout.scss';
 
 
@@ -15,10 +16,20 @@ export default function Layout ({ children }) {
         <div className="container">
           <nav>
             <ul>
-              <li><Link className="nav-link styled-link" to="/">Home</Link></li>
-              <li><Link className="nav-link styled-link" to="/#about">About</Link></li>
-              <li><Link className="nav-link styled-link" to="/contact">Contact</Link></li>
-              <li><ThemeButton dark={dark} onClick={toggleDark} /></li>
+              <li>
+                <Link className="nav-link nav-link--logo styled-link" to="/">
+                  <Logo aria-label="Home" />
+                </Link>
+              </li>
+              <li>
+                <Link className="nav-link styled-link" to="/#about">About</Link>
+              </li>
+              <li>
+                <Link className="nav-link styled-link" to="/contact">Contact</Link>
+              </li>
+              <li>
+                <ThemeButton dark={dark} onClick={toggleDark} />
+              </li>
             </ul>
           </nav>
         </div>
@@ -30,9 +41,17 @@ export default function Layout ({ children }) {
         <div className="container">
           <nav>
             <ul>
-              <li><Link className="nav-link nav-link--footer styled-link" to="/">Logo</Link></li>
-              <li><Link className="nav-link nav-link--footer styled-link" to="/#about">About</Link></li>
-              <li><Link className="nav-link nav-link--footer styled-link" to="/contact">Contact</Link></li>
+              <li>
+                <Link className="nav-link nav-link--logo nav-link--footer styled-link" to="/">
+                  <Logo aria-label="Home" />
+                </Link>
+              </li>
+              <li>
+                <Link className="nav-link nav-link--footer styled-link" to="/#about">About</Link>
+              </li>
+              <li>
+                <Link className="nav-link nav-link--footer styled-link" to="/contact">Contact</Link>
+              </li>
             </ul>
           </nav>
           <div className="copyright">
