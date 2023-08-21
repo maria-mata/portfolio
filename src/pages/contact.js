@@ -28,7 +28,7 @@ const ContactPage = () => {
           <BackToForm callback={() => setSuccess(false)} />
           ) : (
             <>
-            <p>Hi there, please send me a message via this form and I will respond as soon as possible. Have a great day. <span role="img" aria-label="sun">☀️</span></p>
+            <p>Hi there, please send me a message via this form and I will respond as soon as possible.</p>
             <ContactForm setSuccess={setSuccess} />
           </>
         ) }

@@ -42,24 +42,24 @@ const skills = [
     icon: Sass,
   },
   {
-    name: 'Web Accessibility',
-    icon: Accessibility,
-  },
-  {
     name: 'Responsive Design',
     icon: Phone,
   },
   {
-    name: 'Front-end Development',
-    icon: Browser,
-  },
-  {
-    name: 'Full-stack Development',
-    icon: Server,
+    name: 'Web Accessibility',
+    icon: Accessibility,
   },
   {
     name: 'Unit Testing',
     icon: Checkbox,
+  },
+  {
+    name: 'Frontend Development',
+    icon: Browser,
+  },
+  {
+    name: 'Fullstack Development',
+    icon: Server,
   },
   {
     name: 'CLI',
@@ -87,7 +87,7 @@ function Skill({ name, icon: Icon }) {
 export default function Skills() {
   return (
     <Section title="Skills" sectiondId="skills">
-      <p>These are the languages, tools, and techniques I work with the most, but I'm always interested in learning new things and choosing the most appropriate tool for a task.</p>
+      <p>These are the languages, tools, and techniques I use most frequently. However, I'm always interested in learning new skills and selecting the optimal tools for each task.</p>
       <ul className="skills">
         { skills.map(skill => <Skill key={skill.name} {...skill} />) }
       </ul>
