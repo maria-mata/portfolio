@@ -9,7 +9,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Maria Jose Mata, Software Engineer',
-    siteUrl: 'https://mariamata.dev'
+    siteUrl: 'https://mariamata.dev',
   },
   plugins: [
     'gatsby-plugin-image',
@@ -52,6 +52,12 @@ module.exports = {
         'path': './src/content/'
       },
       __key: 'pages'
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        'icon': './src/images/logo.png'
+      }
     },
   ]
 };
