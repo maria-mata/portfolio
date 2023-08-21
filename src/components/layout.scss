@@ -34,6 +34,18 @@
         background-color: $color-white;
       }
     }
+
+    &--logo {
+      display: flex;
+      svg {
+        width: 4rem;
+        height: auto;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
   }
 
   header, footer {
@@ -44,14 +56,18 @@
     nav {
       ul {
         display: flex;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
         grid-gap: $spacing-large;
       
-        li {
-          &:first-child {
-            margin-right: auto;
-            margin-left: 0;
+        
+        @media screen and (min-width: $screen-tablet-portrait) {
+          justify-content: right;
+
+          li {
+            &:first-child {
+              margin-right: auto;
+            }
           }
         }
       }  

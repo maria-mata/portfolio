@@ -1,6 +1,6 @@
 import React from 'react';
-import Sun from '../icons/sun';
-import Moon from '../icons/moon';
+import Sun from './icons/sun';
+import Moon from './icons/moon';
 import './themeButton.scss';
 
 export default function ThemeButton({ dark, onClick }) {
