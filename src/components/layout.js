@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'gatsby';
 import ThemeButton from './themeButton';
 import { ThemeContext } from '../context/themeContext';
-import Logo from '../icons/logo';
+import Logo from './icons/logo';
 import './layout.scss';
 
 

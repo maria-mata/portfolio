@@ -2,9 +2,9 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 import Section from './section';
-import Github from '../icons/github';
-import Linkedin from '../icons/linkedin';
-import Email from '../icons/email';
+import Github from './icons/github';
+import Linkedin from './icons/linkedin';
+import Email from './icons/email';
 import './hero.scss';
 
 export default function Hero() {
