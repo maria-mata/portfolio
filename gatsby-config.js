@@ -9,7 +9,9 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Maria Jose Mata, Software Engineer',
+    description: 'Experienced fullstack engineer, specialized in frontend development. I love crafting intuitive web interfaces and delivering seamless user experiences.',
     siteUrl: 'https://mariamata.dev',
+    image: '/logo.png'
   },
   plugins: [
     'gatsby-plugin-image',
