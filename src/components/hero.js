@@ -31,6 +31,7 @@ export default function Hero() {
             alt="Maria Jose Mata, Software Engineer"
             width={250}
             height={250}
+            loading="eager"
           />
         </div>
         <div className="hero__content">
