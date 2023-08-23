@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import Section from '../components/section';
 import ImageWrapper from '../components/imageWrapper';
 import { StaticImage } from 'gatsby-plugin-image';
+import Seo from '../components/seo';
 
 const NotFoundPage = () => {
   return (
@@ -23,6 +24,6 @@ const NotFoundPage = () => {
   )
 }
 
-export default NotFoundPage
+export const Head = () => (<Seo />);
 
-export const Head = () => <title>404 | Maria Jose Mata, Software Engineer</title>
+export default NotFoundPage;

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Layout from '../components/layout';
 import Section from '../components/section';
 import ContactForm from '../components/contactForm';
+import Seo from '../components/seo';
 
 function BackToForm({ callback }) {
   return (
@@ -28,7 +29,7 @@ const ContactPage = () => {
           <BackToForm callback={() => setSuccess(false)} />
           ) : (
             <>
-            <p>Hi there, please send me a message via this form and I will respond as soon as possible. Have a great day. <span role="img" aria-label="sun">☀️</span></p>
+            <p>Hi there, please send me a message via this form and I will respond as soon as possible.</p>
             <ContactForm setSuccess={setSuccess} />
           </>
         ) }
@@ -37,6 +38,6 @@ const ContactPage = () => {
   );
 }
 
-export const Head = () => <title>Contact | Maria Jose Mata, Software Engineer</title>
+export const Head = () => (<Seo />);
 
 export default ContactPage
