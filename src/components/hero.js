@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="hero">
         <div className="hero__image">
           <StaticImage 
-            src="../images/mata-mariajose-headshot.jpg"
+            src="../images/headshot-min.jpeg"
             alt="Maria Jose Mata, Software Engineer"
             width={250}
             height={250}
