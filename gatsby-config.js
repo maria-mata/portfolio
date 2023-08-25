@@ -61,5 +61,15 @@ module.exports = {
         'icon': './src/images/logo.png'
       }
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Open Sans\:400,400i,600',
+          'Ubuntu\:700'
+        ],
+        display: 'swap'
+      }
+    }
   ]
 };
