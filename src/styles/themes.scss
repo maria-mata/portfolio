@@ -3,7 +3,7 @@
   color: $color-black;
   background-color: $color-white;
   *::selection {
-    background-color: $color-violet-3;
+    background-color: $color-violet-1;
   }
   *:focus {
     outline-color: $color-violet-3;
@@ -45,7 +45,7 @@
     }
 
     &--logo svg {
-      fill: $color-violet-9;
+      fill: $color-violet-4;
     }
   }
 
@@ -58,7 +58,7 @@
   }
 
   .hero__content h1 {
-    color: $color-violet-9;
+    color: $color-violet-4;
   }
 
   .hero__links {
@@ -77,6 +77,10 @@
 
   input, textarea {
     background-color: rgba(0, 0, 0, .02);  
+  }
+
+  .contact-form__small {
+    color: $color-grape-9;
   }
 
   .button {
@@ -132,7 +136,7 @@
     }
 
     &--logo svg {
-      fill: $color-violet-3;
+      fill: $color-violet-4;
     }
   }
 
@@ -141,7 +145,7 @@
   }
 
   .hero__content h1 {
-    color: $color-violet-3;
+    color: $color-violet-4;
   }
 
   .hero__links {
@@ -156,6 +160,10 @@
 
   .skills__chip {
     background-color: $color-white-transparent;
+  }
+
+  .contact-form__small {
+    color: $color-grape-3;
   }
 
   input, textarea {
