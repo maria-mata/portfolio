@@ -2,6 +2,10 @@
   @include mobile-flex;
   padding-top: $spacing-large;
   padding-bottom: $spacing-xlarge;
+
+  @media screen and (min-width: $screen-tablet-portrait) and (min-height: 700px) {
+    height: calc(100vh - $header-height - $footer-height);
+  }
   
   &__image {
     width: 250px;
