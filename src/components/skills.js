@@ -77,7 +77,7 @@ const skills = [
 
 function Skill({ name, icon: Icon }) {
   return (
-    <li>
+    <li className="skills__chip">
       <Icon aria-hidden="true" />
       <span>{name}</span>
     </li>

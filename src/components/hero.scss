@@ -26,7 +26,6 @@
     
     h1 {
       line-height: 1;
-      color: $color-accent;
       font-size: 6rem;
     }
   
@@ -48,11 +47,9 @@
     a:visited {
       display: flex;
       padding: .5rem 1rem;
-      border: .1rem solid $color-gray;
       border-radius: $border-radius;
       overflow: hidden;
       max-width: auto;
-      color: $color-black;
 
       span {
         margin-left: 0;
@@ -73,15 +70,5 @@
         }
       }
     }
-  }
-}
-
-// Dark theme
-.layout--dark .hero__links {
-  a,
-  a:active,
-  a:link,
-  a:visited {
-    color: $color-white;
   }
 }

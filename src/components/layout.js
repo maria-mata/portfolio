@@ -11,7 +11,7 @@ export default function Layout ({ children }) {
   const { dark, toggleDark } = useContext(ThemeContext);
 
   return (
-    <div className={`layout${dark ? ' layout--dark' : ''}`}>
+    <div className={`layout ${dark ? 'dark' : 'light'}`}>
       <header>
         <div className="container">
           <nav>
