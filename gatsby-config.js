@@ -19,6 +19,7 @@ module.exports = {
     'gatsby-plugin-mdx',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -53,7 +54,7 @@ module.exports = {
         'name': 'content',
         'path': './src/content/'
       },
-      __key: 'pages'
+      __key: 'content'
     },
     {
       resolve: 'gatsby-plugin-manifest',

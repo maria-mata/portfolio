@@ -56,10 +56,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        grid-gap: $spacing-large;
-      
+        gap: $spacing-small;
         
         @media screen and (min-width: $screen-tablet-portrait) {
+          gap: $spacing-large;
           justify-content: right;
 
           li {

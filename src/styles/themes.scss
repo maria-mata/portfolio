@@ -75,6 +75,13 @@
     background-color: $color-gray-1;
   }
 
+  .project__links a:hover {
+    color: $color-violet-9;
+    svg {
+      fill: $color-violet-9;
+    }
+  }
+
   input, textarea {
     background-color: rgba(0, 0, 0, .02);  
   }
@@ -160,6 +167,13 @@
 
   .skills__chip {
     background-color: $color-white-transparent;
+  }
+
+  .project__links a:hover {
+    color: $color-violet-3;
+    svg {
+      fill: $color-violet-3;
+    }
   }
 
   .contact-form__small {

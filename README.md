@@ -1,7 +1,5 @@
 ## What is this?
-Source code for my personal site at [mariamata.dev](https://mariamata.dev)
-
-I built it using the following tools:
+Code for my personal site at [mariamata.dev](https://mariamata.dev), built with:
 - [Gatsby](https://www.gatsbyjs.com/) - React and GraphQL based static site generator
 - [Gatsby Cloud](https://www.gatsbyjs.com/docs/reference/cloud/) - hosting and build previews
 - [99 inbound](https://app.99inbound.com/) - form endpoint
@@ -14,6 +12,5 @@ I built it using the following tools:
 
 ### What's next?
 Some things I may add in the future:
-- More animations
+- Animations
 - A blog
-- Docker 
