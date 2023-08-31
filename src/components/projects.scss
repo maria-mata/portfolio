@@ -1,0 +1,67 @@
+.project {
+  margin-bottom: $spacing-large;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $screen-tablet-landscape) {
+    margin-bottom: $spacing-xlarge;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(odd) &__image {
+      margin-left: $spacing-medium;
+    }
+
+    &:nth-child(even) &__image {
+      margin-right: $spacing-medium;
+    }
+
+    &__image {
+      width: 35rem;
+    }
+
+    &__content {
+      width: 45rem;
+    }
+  }
+
+  &__image {
+    border-radius: $border-radius;
+    overflow: hidden;
+    box-shadow: $box-shadow;
+    margin-top: $spacing-medium;
+    margin-bottom: $paragraph-spacing;
+    max-width: 40rem;
+    max-height: 30rem;
+  }
+
+  &__type {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 600;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    li {
+      margin-right: 1rem;
+      a {
+        transition: all .2s ease;
+        color: inherit;
+        display: flex;
+        align-items: center;
+
+        svg {
+          transition: all .2s ease;
+        }
+      }
+    }
+  }
+}

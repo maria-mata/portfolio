@@ -4,9 +4,8 @@
   line-height: 2rem;
 
   &__small {
-    color: red;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   label {
@@ -18,13 +17,12 @@
   input, textarea {
     padding: 1rem 1.5rem;
     border-radius: $border-radius;
-    border: .1rem solid $color-gray;
+    border: .1rem solid $color-gray-5;
     flex-grow: 1;
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-family: $font-family;
     font-size: $font-size-body;
     color: inherit;
-    background-color: rgba(0, 0, 0, .02);
   }
 }

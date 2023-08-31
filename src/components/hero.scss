@@ -2,6 +2,10 @@
   @include mobile-flex;
   padding-top: $spacing-large;
   padding-bottom: $spacing-xlarge;
+
+  @media screen and (min-width: $screen-tablet-portrait) and (min-height: 700px) {
+    height: calc(100vh - $header-height - $footer-height);
+  }
   
   &__image {
     width: 250px;
@@ -20,13 +24,11 @@
     justify-content: center;
   
     h1, h2 {
-      font-family: $font-family-accent;
       margin-bottom: $spacing-small;
     }
     
     h1 {
       line-height: 1;
-      color: $color-accent;
       font-size: 6rem;
     }
   
@@ -48,11 +50,9 @@
     a:visited {
       display: flex;
       padding: .5rem 1rem;
-      border: .1rem solid $color-gray;
       border-radius: $border-radius;
       overflow: hidden;
       max-width: auto;
-      color: $color-black;
 
       span {
         margin-left: 0;
@@ -73,15 +73,5 @@
         }
       }
     }
-  }
-}
-
-// Dark theme
-.layout--dark .hero__links {
-  a,
-  a:active,
-  a:link,
-  a:visited {
-    color: $color-white;
   }
 }

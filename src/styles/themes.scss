@@ -1,0 +1,194 @@
+// light theme
+.light {
+  color: $color-black;
+  background-color: $color-white;
+  *::selection {
+    background-color: $color-violet-1;
+  }
+  *:focus {
+    outline-color: $color-violet-3;
+  }
+  a,
+  a:active,
+  a:link,
+  a:visited {
+    &:not(.styled-link) {
+      text-decoration: none;
+      color: $color-violet-9;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+  }
+
+  a:hover:not(.styled-link) {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  svg {
+    fill: $color-black;
+    width: $font-size-body;
+    height: auto;
+  }
+
+  .nav-link {
+    color: $color-black;
+    &::after {
+      background-color: $color-black;
+    }
+
+    &--footer {
+      color: $color-white;
+      &::after {
+        background-color: $color-white;
+      }
+    }
+
+    &--logo svg {
+      fill: $color-violet-4;
+    }
+  }
+
+  footer .nav-link--logo svg {
+    fill: $color-violet-3;
+  }
+
+  .theme-button {
+    background: $color-gray-1;
+  }
+
+  .hero__content h1 {
+    color: $color-violet-4;
+  }
+
+  .hero__links {
+    a,
+    a:active,
+    a:link,
+    a:visited {
+      color: $color-black;
+      border: .1rem solid $color-gray-5;
+    }
+  }
+
+  .skills__chip {
+    background-color: $color-gray-1;
+  }
+
+  .project__links a:hover {
+    color: $color-violet-9;
+    svg {
+      fill: $color-violet-9;
+    }
+  }
+
+  input, textarea {
+    background-color: rgba(0, 0, 0, .02);  
+  }
+
+  .contact-form__small {
+    color: $color-grape-9;
+  }
+
+  .button {
+    color: $color-white;
+    background-color: $color-violet-9;
+    &:hover {
+      background-color: darken($color-violet-9, 5%);
+    }
+  }
+}
+
+// dark theme
+.dark {
+  color: $color-white;
+  background-color: $color-black;
+  *::selection {
+    background-color: $color-violet-9;
+  }
+  *:focus {
+    outline-color: $color-violet-3;
+  }
+  a,
+  a:active,
+  a:link,
+  a:visited {
+    &:not(.styled-link) {
+      text-decoration: none;
+      color: $color-violet-3;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+  }
+
+  a:hover:not(.styled-link) {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  svg {
+    fill: $color-white;
+    width: $font-size-body;
+    height: auto;
+  }
+
+  footer {
+    border-top: .1rem solid $color-gray-5;
+  }
+
+  .nav-link {
+    color: $color-white;
+    &::after {
+      background-color: $color-white;
+    }
+
+    &--logo svg {
+      fill: $color-violet-4;
+    }
+  }
+
+  .theme-button {
+    background: $color-white-transparent;
+  }
+
+  .hero__content h1 {
+    color: $color-violet-4;
+  }
+
+  .hero__links {
+    a,
+    a:active,
+    a:link,
+    a:visited {
+      color: $color-white;
+      border: .1rem solid $color-gray-5;
+    }
+  }
+
+  .skills__chip {
+    background-color: $color-white-transparent;
+  }
+
+  .project__links a:hover {
+    color: $color-violet-3;
+    svg {
+      fill: $color-violet-3;
+    }
+  }
+
+  .contact-form__small {
+    color: $color-grape-3;
+  }
+
+  input, textarea {
+    background-color: $color-white-transparent;
+  }
+
+  .button {
+    color: $color-white;
+    background-color: $color-violet-9;
+    &:hover {
+      background-color: lighten($color-violet-9, 5%);
+    }
+  }
+}
