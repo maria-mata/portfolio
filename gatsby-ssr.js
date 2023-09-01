@@ -10,7 +10,15 @@ export const wrapRootElement = ({ element }) => {
   )
 }
 
-export const onRenderBody = ({ setHeadComponents }) => {
+function FFScript() {
+  return (<script>0</script>);
+}
+
+export const onRenderBody = ({ 
+  setHeadComponents, 
+  setBodyAttributes,
+  setPreBodyComponents
+}) => {
   setHeadComponents([
     <link
       key="open-sans-regular"
@@ -37,4 +45,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       crossOrigin="anonymous"
     />,
   ]);
+  // hack to prevent FOUC on dark mode
+  setBodyAttributes({ style: { visibility: 'hidden' } });
+  setPreBodyComponents([<FFScript key="ffs" />])
 };
