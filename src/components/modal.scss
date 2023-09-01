@@ -22,9 +22,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: $spacing-medium;
+    margin-bottom: $spacing-small;
     h4 {
       font-family: $font-family-accent;
+    }
+
+    @media screen and (min-width: $screen-tablet-portrait) {
+      margin-bottom: $spacing-medium;
     }
   }
 
