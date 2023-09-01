@@ -2,10 +2,15 @@
   border-radius: $border-radius;
   overflow: hidden;
   box-shadow: $box-shadow;
-  width: 55rem;
-  height: 30rem;
+  width: 30rem;
+  height: 18rem;
 
-  @media screen and (min-width: $screen-tablet-portrait){
+  @media screen and (min-width: $screen-mobile-landscape) {
+    width: 55rem;
+    height: 30rem;
+  }
+
+  @media screen and (min-width: $screen-desktop) {
     width: 70rem;
     height: 40rem;
   }
