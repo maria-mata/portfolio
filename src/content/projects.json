@@ -1,16 +1,15 @@
-[
+  [
   {
     "title": "Dashboard and Saved Search",
     "type": "Employer: Vox Media",
     "description": "I worked on refactoring Vox Media's story editor app from a legacy frontend framework (Ractive) into a modern one (Vue). The first part of this was the dashboard re-write, which also introduced an enhanced search experience and \"saved searches\" — a way to save specific queries. This project reduced page load times by 50% and allowed users to conduct more granular searches. It also helped lay the ground work for additional refactor projects over a period of two years to bring the app up to modern standards.",
     "image": {
       "src": "../images/chorus-logo.png",
-      "alt": "Image of the Chorus logo.",
-      "linkTo": "https://youtu.be/xIo5sXS4iqs"
+      "alt": "Image of the Chorus logo."
     },
     "tags": ["JavaScript", "Vue", "Unit Testing", "Sass", "Refactor"],    
     "links": {
-      "youtube": "https://youtu.be/xIo5sXS4iqs"
+      "youtube": "https://www.youtube.com/embed/xIo5sXS4iqs?si=ElpqcGyQ8-cGDzgy"
     }
   },
   {
@@ -19,11 +18,10 @@
     "description": "A new audience platform, created for The Verge's redesign, required added tools to manage certain layout and content formats. One of these new formats is known as Quickposts, which feeds into the Storystream seen on The Verge's home page. For this project, I worked on the Quickposts UI within the story editor, adding features like image uploads, publishing, and grouping. This allowed editorial users to save time by quickly drafting and publishing posts to the Storystream, which has been described by some writers as \"blogging to the homepage\".",
     "image": {
       "src": "../images/verge-quickpost.png",
-      "alt": "Image of a quickpost on The Verge homepage.",
-      "linkTo": "https://youtu.be/ksH1fPOuuFQ"
+      "alt": "Image of a quickpost on The Verge homepage."
     },
     "links": {      
-      "youtube": "https://youtu.be/ksH1fPOuuFQ",
+      "youtube": "https://www.youtube.com/embed/ksH1fPOuuFQ?si=0CRjWyvUAphrMdLj",
       "external": "https://www.theverge.com/2022/9/13/23349876/the-verge-website-redesign-new-newsfeed-blogs-logo"
     }
   },
@@ -33,11 +31,10 @@
     "description": "A special Chorus story type known as \"mapstacks\" is mainly used by Eater sites to create curated guides. For this project I worked on a new UI integrated with Mapbox, Foursquare, and OpenTable, with the goal of helping writers save time and better manage centralized restaurant metadata. One highlight of this project was working with Vue transition animations to handle expanding and shrinking map point cards when switching between the edit and reorder views. I also created an animated draggable list component for the reorder view using the Drag and Drop API.",
     "image": {
       "src": "../images/eater-map-point.png",
-      "alt": "Image of a map point on an Eater Denver mapstack.",
-      "linkTo": "https://youtu.be/SrbsXhRntSo"
+      "alt": "Image of a map point on an Eater Denver mapstack."
     },
     "links": {
-      "youtube": "https://youtu.be/SrbsXhRntSo"
+      "youtube": "https://www.youtube.com/embed/SrbsXhRntSo?si=MXYNEuu7z-GKvDfg"
     }
   }
 ]

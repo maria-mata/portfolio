@@ -12,6 +12,7 @@ export default function Layout ({ children }) {
 
   return (
     <div className={`layout ${dark ? 'dark' : 'light'}`}>
+      <div id="modal" />
       <header>
         <div className="container">
           <nav>
