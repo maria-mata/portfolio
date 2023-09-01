@@ -10,19 +10,21 @@ export const ThemeContext = createContext(defaultState);
 export default function ThemeProvider({ children }) {
   const [dark, setDark] = useState(false);
   const toggleDark = () => {
-    localStorage.setItem('dark', JSON.stringify(dark));
+    localStorage.setItem('dark', !dark);
     setDark(!dark);
   };
 
   useEffect(() => {
-    const prefersDark = window.matchMedia
-      && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const lsDark = JSON.parse(localStorage.getItem('dark'));
-    if (lsDark) {
-      setDark(lsDark);
-    } else if (prefersDark) {
+    if (lsDark || prefersDark) {
       setDark(true);
+    } else {
+      setDark(false);
     }
+
+    // hack to prevent FOUC on dark mode
+    document.body.style.visibility = 'visible';
   }, []);
 
   return (
