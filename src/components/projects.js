@@ -1,10 +1,13 @@
-import React from 'react';
-import Section from './section';
-import Github from './icons/github';
-import Youtube from './icons/youtube';
-import Open from './icons/open';
+import React, { useState } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { createPortal } from 'react-dom';
 import { graphql, useStaticQuery } from 'gatsby';
+import Github from './icons/github';
+import Modal from './modal';
+import Open from './icons/open';
+import Section from './section';
+import Youtube from './icons/youtube';
+import Video from './video';
 import './projects.scss';
 
 function Project({ project }) {
@@ -14,16 +17,17 @@ function Project({ project }) {
     className: 'styled-link',
   };
 
+  // modal open/close state
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="project">
       <div className="project__image">
-        <a href={project.image.linkTo}>
-          <GatsbyImage 
-            image={getImage(project.image.src)}
-            src={project.image.src}
-            alt={project.image.alt}
-          />
-        </a>
+        <GatsbyImage 
+          image={getImage(project.image.src)}
+          src={project.image.src}
+          alt={project.image.alt}
+        />
       </div>
       <div className="project__content">
         <div className="project__type">{project.type}</div>
@@ -41,11 +45,20 @@ function Project({ project }) {
               </li>
             )}
             {project.links.youtube && (
-              <li className="skills__chip">
-                <a {...linkAttrs} href={project.links.youtube}>
+              <li>
+                <button className="skills__chip" onClick={() => setOpen(true)}>
                   <Youtube aria-hidden="true" />
                   <span>Demo</span>
-                </a>
+                </button>
+                {open && createPortal(
+                  <Modal 
+                    title={project.title} 
+                    close={() => setOpen(false)}
+                  >
+                    <Video url={project.links.youtube} title={project.title} />
+                  </Modal>,
+                  document.getElementById('modal')
+                )}
               </li>
             )}
             {project.links.external && (
@@ -84,7 +97,6 @@ export default function Projects() {
               }
             }
             alt
-            linkTo
           }
           tags
           links {

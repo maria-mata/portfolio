@@ -91,6 +91,7 @@ hr {
 .styled-link:active,
 .styled-link:link,
 .styled-link:visited  {
+  cursor: pointer;
   text-decoration: none;
   &:hover {
     text-decoration: none;
