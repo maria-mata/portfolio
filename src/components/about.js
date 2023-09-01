@@ -3,8 +3,6 @@ import Section from './section';
 import { graphql, useStaticQuery } from 'gatsby';
 import './about.scss';
 
-// TODO: figure out mobile image resizing with JS
-
 export default function About() {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
