@@ -3,14 +3,15 @@ import Layout from '../components/layout';
 import Section from '../components/section';
 import ContactForm from '../components/contactForm';
 import Seo from '../components/seo';
+import Button from '../components/button';
 
 function BackToForm({ callback }) {
   return (
     <>
-      <p>Success! Your message has been sent and I will get back to you soon. <span role="img" aria-label="email">📧</span></p>
-      <button className="c-button" onClick={callback}>
+      <p>Success! Your message has been sent and I will get back to you soon.</p>
+      <Button onClick={callback}>
         Back to form
-      </button>
+      </Button>
     </>
   );
 }
