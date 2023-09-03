@@ -13,7 +13,7 @@ export default function Video({ url, title }) {
         webkitallowfullscreen="true"
         mozallowfullscreen="true"
         allowFullScreen
-        frameborder="0"
+        frameBorder="0"
       />
     </div>
   );
