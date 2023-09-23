@@ -1,7 +1,7 @@
 ## What is this?
-Code for my personal site at [mariamata.dev](https://mariamata.dev), built with:
+Code for my personal site, built with:
 - [Gatsby](https://www.gatsbyjs.com/) - React and GraphQL based static site generator
-- [Gatsby Cloud](https://www.gatsbyjs.com/docs/reference/cloud/) - hosting and build previews
+- [Netlify](https://www.netlify.com/) - hosting and build previews
 - [99 inbound](https://app.99inbound.com/) - form endpoint
 - [Sass](https://sass-lang.com/) - styling
 - [Ionic](https://ionic.io/ionicons) - icons
