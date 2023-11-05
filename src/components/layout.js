@@ -26,9 +26,6 @@ export default function Layout ({ children }) {
                 <Link className="nav-link styled-link" to="/#about">About</Link>
               </li>
               <li>
-                <Link className="nav-link styled-link" to="/#projects">Projects</Link>
-              </li>
-              <li>
                 <Link className="nav-link styled-link" to="/contact">Contact</Link>
               </li>
               <li>
@@ -52,9 +49,6 @@ export default function Layout ({ children }) {
               </li>
               <li>
                 <Link className="nav-link nav-link--footer styled-link" to="/#about">About</Link>
-              </li>
-              <li>
-                <Link className="nav-link nav-link--footer styled-link" to="/#about">Projects</Link>
               </li>
               <li>
                 <Link className="nav-link nav-link--footer styled-link" to="/contact">Contact</Link>
