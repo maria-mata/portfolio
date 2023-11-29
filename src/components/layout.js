@@ -54,7 +54,7 @@ export default function Layout ({ children }) {
                 <Link className="nav-link nav-link--footer styled-link" to="/#about">About</Link>
               </li>
               <li>
-                <Link className="nav-link nav-link--footer styled-link" to="/#about">Projects</Link>
+                <Link className="nav-link nav-link--footer styled-link" to="/#projects">Projects</Link>
               </li>
               <li>
                 <Link className="nav-link nav-link--footer styled-link" to="/contact">Contact</Link>
